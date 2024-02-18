@@ -512,7 +512,7 @@ param(
 		$name = "/" + $attribute.$value
 		$path = $path -Replace ($name, "")
 	
-		$extPath = "/VSZH0004.uniqconsulting.local/vm/VDI/VDI-Pools/"	
+		$extPath = "/server.homelab.local/vm/VDI/VDI-Pools/"	
 	
 		$path = $path -Replace ($dirname, "")
 		$path = $path -Replace ($extPath, "")
